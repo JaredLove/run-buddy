@@ -3,12 +3,14 @@
     margin: 0;
 
     padding: 0;
+
+    box-sizing: border-box;
 }
 
 
 body {
 
-     /* more on this crazy alphanumerical value in a minute! */
+     /* Apply style to body! */
 
     color: #39a6b2;
 
@@ -16,14 +18,14 @@ body {
 
     }
 
-    /* Apply styles to <header> */
+    /* Apply style to <header> */
 header {
     
     padding: 20px 35px;
 
     background-color: #39a6b2;
 }
-    /* Apply syles to h1 in header */
+    /* Apply syle to h1 in header */
 header h1 {
 
     font-weight: bold;
@@ -33,14 +35,14 @@ header h1 {
     display: inline;
 }
 
-    /* Apply styles to a element in header */
+    /* Apply style to a element in header */
 header a {
 
     text-decoration: none;
     color: #fce138;
 }
 
-    /* Apply styles to nav */
+    /* Apply style to nav */
 header nav {
 
     float: right;
@@ -48,16 +50,140 @@ header nav {
     margin: 7px 0;
 }
 
-    /* Apply styles to nav list */
+    /* Apply style to nav list */
 header nav ul li {
 
     display: inline;
 }
 
-    /* Apply styles to the a elements in nav */
+    /* Apply style to the a elements in nav */
 header nav ul li a {
 
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
 }
+
+    /* Apply Style to footer */
+footer {
+
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+
+}
+
+    /* Apply style to h2 in footer */
+footer h2 {
+
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+    
+}
+
+    /* Apply style to div in footer */
+footer div {
+
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+    /* Apply style to a element in footer */
+footer a {
+
+    color: #024e76;
+}
+    /* Apply style to section*/
+section {
+
+    padding: 60px;
+    
+}
+
+    /* apply style to hero section */
+.hero {
+
+    background-image: url(../images/hero-bg.jpg);
+
+    height: 600px;
+
+    background-size: cover;
+
+    background-position: center;
+
+    position: relative;
+}
+
+    /* adding style to hero div */
+.hero-form {
+
+    background-color: #fce138;
+
+    padding: 20px;
+
+    width: 500px;
+
+    color: #024e76;
+
+    border: solid 3px #024e76;
+    
+    position: absolute;
+
+    bottom: 120px;
+
+    right: 140px;
+}
+
+    /* adding stype to h3 hero section */
+.hero h3 {
+
+    font-size: 24px;
+    margin: 0px;
+}
+
+    /* adding style to p hero-form */
+.hero-form p {
+
+    margin: 5px 0 15px 0;
+}
+
+.form-input {
+    
+    border: 1px solid #024e76;
+    
+    display: block;
+    
+    padding: 7px 15px;
+    
+    font-size: 16px;
+    
+    color: #024e76;
+    
+    width: 100%;
+    
+    margin-bottom: 15px;
+  }
+
+
+.hero-form label {
+
+    margin: 0 5px;
+
+  }
+
+
+.hero-form button {
+
+    color: #fce138;
+    
+    background-color: #024e76;
+    
+    border: none;
+    
+    padding: 10px 20px;
+    
+    font-size: 16px;
+  }
