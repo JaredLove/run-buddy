@@ -339,7 +339,7 @@ section {
 
   .step-text {
 
-    flex 12;
+    flex: 12;
 
   }
 
@@ -349,7 +349,16 @@ section {
 
 .trainers {
 
-    
+  width: 100%;
+
+  margin: 0 auto;
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+
 
   }
 
@@ -357,15 +366,15 @@ section {
 
 .trainer {
 
-    width: 900px;
+    flex: 1;
 
-    margin: 0 auto 30px auto;
+    margin: 20px;
 
     background: #024e76;
 
     color: #fce138;
 
-    overflow: auto;
+    
 
   }
 
@@ -373,20 +382,16 @@ section {
 
 .trainer img {
 
-    width: 35%;
+    width: 100%;
 
-    float: left;
+    
 
   }
   
 .trainer-bio {
 
-    padding: 35px;
-
-    float: left;
-
-    width: 65%;
-
+    padding: 25px;
+    
     line-height: 1.3;
 
   }
