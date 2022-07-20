@@ -19,3 +19,5 @@ https://jaredlove.github.io/run-buddy/
 ## Contribution
 
 Made with ❤️ by Jared Love
+
+# Run Buddy Inc.
