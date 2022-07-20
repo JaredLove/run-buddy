@@ -20,4 +20,6 @@ https://jaredlove.github.io/run-buddy/
 
 Made with ❤️ by Jared Love
 
-# Run Buddy Inc.
+
+
+### ©️2019 Run Buddy, Inc 
